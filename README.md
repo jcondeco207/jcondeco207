@@ -7,7 +7,7 @@
 ![My Skills](https://skills.thijs.gg/icons?i=js,java,c,cpp,cs,py,html,css,postgres,dart,kotlin,markdown,)
 
 ## Frameworks and tools I have worked with before:
-![My Skills](https://skills.thijs.gg/icons?i=react,spring,electron,flutter,)
+![My Skills](https://skills.thijs.gg/icons?i=react,dotnet,spring,electron,flutter)
 
 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&layout=compact)](https://github.com/anuraghazra/github-readme-stats&count_private=true)-->
