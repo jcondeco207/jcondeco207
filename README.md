@@ -10,8 +10,9 @@
 ![My Skills](https://skills.thijs.gg/icons?i=react,dotnet,spring,electron,flutter,laravel)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&layout=compact)](https://github.com/anuraghazra/github-readme-stats&count_private=true)
+
 ![Anurag's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=jcondeco207&show_icons=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&layout=compact)](https://github.com/anuraghazra/github-readme-stats&count_private=true&theme=tokyonight)
 
 <!---
 jcondeco207/jcondeco207 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
