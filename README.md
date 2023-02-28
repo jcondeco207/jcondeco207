@@ -11,8 +11,8 @@
 
 
 
-![Anurag's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=jcondeco207&show_icons=true&theme=tokyonight)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&layout=compact&count_private=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=jcondeco207&count_private=true&show_icons=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&count_private=true&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 <!---
 jcondeco207/jcondeco207 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
