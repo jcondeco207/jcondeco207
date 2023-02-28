@@ -7,7 +7,7 @@
 ![My Skills](https://skills.thijs.gg/icons?i=js,java,c,cpp,cs,py,html,css,postgres,dart,kotlin,markdown,php)
 
 ## Frameworks and tools I have worked with before:
-![My Skills](https://skills.thijs.gg/icons?i=react,dotnet,spring,electron,flutter,laravel)
+![My Skills](https://skills.thijs.gg/icons?i=react,dotnet,spring,electron,flutter,laravel,git)
 
 
 
