@@ -5,12 +5,13 @@
 - 📚 Currently studying Computer Science at University of Évora...
 
 ## Languages I have worked with before:
-![My Skills](https://skills.thijs.gg/icons?i=js,java,c,cpp,cs,py,html,css,postgres,dart,kotlin,markdown,php)
+![My Skills](https://skills.thijs.gg/icons?i=js,ts,java,c,cpp,cs,py,html,css,postgres,mysql,dart,kotlin,markdown,php,swift)
 
 ## Frameworks and tools I have worked with before:
-![My Skills](https://skills.thijs.gg/icons?i=react,dotnet,spring,electron,flutter,laravel,git)
+![My Skills](https://skills.thijs.gg/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,git,docker,gradle,maven,postman)
 
-
+## Having fun with:
+![My Skills](https://skills.thijs.gg/icons?i=raspberrypi)
 
 ![Anurag's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=jcondeco207&count_private=true&show_icons=true&theme=tokyonight)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&count_private=true&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
