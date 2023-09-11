@@ -5,7 +5,7 @@
 - 📚 Currently studying Computer Science at University of Évora...
 
 ## Languages I have worked with before:
-![My Skills](https://skills.thijs.gg/icons?i=js,ts,java,c,cpp,cs,py,html,css,postgres,mysql,dart,kotlin,markdown,php,swift)
+![My Skills](https://skills.thijs.gg/icons?i=js,ts,java,c,cpp,cs,py,php,html,css,postgres,mysql,mongodb,dart,kotlin,markdown,swift)
 
 ## Frameworks and tools I have worked with before:
 ![My Skills](https://skills.thijs.gg/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,git,docker,gradle,maven,postman)
