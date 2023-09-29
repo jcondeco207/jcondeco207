@@ -8,7 +8,7 @@
 ![My Skills](https://skills.thijs.gg/icons?i=js,ts,java,c,cpp,cs,py,php,html,css,postgres,mysql,mongodb,dart,kotlin,markdown,swift)
 
 ## Frameworks and tools I have worked with before:
-![My Skills](https://skills.thijs.gg/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,git,docker,gradle,maven,postman,bootstrap,tailwind)
+![My Skills](https://skills.thijs.gg/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,django,git,docker,gradle,maven,postman,bootstrap,tailwind)
 
 ## Having fun with:
 ![My Skills](https://skills.thijs.gg/icons?i=raspberrypi)
