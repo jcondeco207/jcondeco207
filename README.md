@@ -11,7 +11,7 @@
 ## Frameworks and tools I have worked with before:
 ![My Skills](https://skills.thijs.gg/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,django,git,docker,gradle,maven,postman,bootstrap,tailwind)
 
-## Databases I have worked with
+## Databases I have worked with:
 ![My Skills](https://skills.thijs.gg/icons?i=postgres,mysql,mongodb,redis)
 
 ## Having fun with:
