@@ -22,7 +22,7 @@
 ![My Skills](https://skills.thijs.gg/icons?i=raspberrypi)
 
 ![Anurag's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=jcondeco207&count_private=true&show_icons=true&theme=tokyonight)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&layout=compact&count_private=true&theme=tokyonight&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&layout=compact&count_private=true&theme=tokyonight&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&count_private=true&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)-->
 
