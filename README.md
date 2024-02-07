@@ -11,9 +11,9 @@
 ![My Skills](https://skills.thijs.gg/icons?i=go,rust,html,css,dart,kotlin,markdown,swift)
 
 ## Frameworks and tools I have worked with before:
-![My Skills](https://skills.thijs.gg/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,django)
+![My Skills](https://skills.thijs.gg/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,django,graphql)
 
-![My Skills](https://skills.thijs.gg/icons?i=svelte,git,docker,gradle,maven,postman,bootstrap,tailwind)
+![My Skills](https://skills.thijs.gg/icons?i=fastapi,svelte,git,docker,gradle,maven,postman,bootstrap,tailwind)
 
 ## Databases I have worked with:
 ![My Skills](https://skills.thijs.gg/icons?i=postgres,mysql,mongodb,redis)
