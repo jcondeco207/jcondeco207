@@ -6,7 +6,7 @@
 - 📚 Currently taking a Master's degree in Computer Science at University of Évora...
 
 ## Languages I have worked with before:
-![js,ts,java,c,cpp,cs,py,php](https://skillicons.dev/icons?i=js,ts,java,c,cpp,cs,py,php) 
+![js,ts,java,c,cpp,cs,py,php](https://skillicons.dev/icons?i=js,ts,java,c,cpp,cs,py,scala,php) 
 
 
 ![go,rust,html,css,dart,kotlin,markdown,swift](https://skillicons.dev/icons?i=go,rust,html,css,dart,kotlin,markdown,swift)
