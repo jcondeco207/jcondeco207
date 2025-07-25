@@ -1,8 +1,9 @@
 # 👋 Hi, I’m @jcondeco207
 - 👀 I’m interested in Python, Java and Scala...
-- ⚙️ Working with Python, Django, Rust, React...
+- ⚙️ Working with Python, Django, Rust, React, Clickhouse...
 - 🌱 I’m currently learning Scala and Apache Kafka...
 - ⭐ Favourite language is Python...
+- 🔋 Exploring Clickhouse
 - 📚 Currently taking a Master's degree in Computer Science at University of Évora...
 
 ## Languages I have worked with before:
@@ -12,12 +13,12 @@
 ![go,rust,html,css,dart,kotlin,markdown,swift](https://skillicons.dev/icons?i=go,rust,html,css,dart,kotlin,markdown,swift)
 
 ## Frameworks and tools I have worked with before:
-![react,nodejs,dotnet,spring,electron,flutter,laravel,django,graphql](https://skillicons.dev/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,django,graphql)
+![react,nodejs,dotnet,spring,electron,flutter,laravel,django,graphql,kafka](https://skillicons.dev/icons?i=react,nodejs,dotnet,spring,electron,flutter,laravel,django,graphql,kafka)
 
 ![fastapi,svelte,git,docker,gradle,maven,postman,bootstrap,tailwind](https://skillicons.dev/icons?i=fastapi,svelte,git,docker,gradle,maven,postman,bootstrap,tailwind)
 
 ## Databases I have worked with:
-![My Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis)
+![My Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis) And Clickhouse
 
 ## Having fun with:
 ![My Skills](https://skillicons.dev/icons?i=raspberrypi,arduino)
