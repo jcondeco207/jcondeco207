@@ -1,140 +1,98 @@
-<div align="center">
-
 # Hi, I'm João 👋
 
-<a href="https://github.com/jcondeco207">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Backend+%26+Data+Engineer;Rust+%2B+Python+%E2%9D%A4%EF%B8%8F;Building+real-time+data+pipelines;LLM+agents+%26+platform+engineering" alt="Typing SVG" />
-</a>
+### 🤖 AI & Software Engineer
 
-![Profile views](https://komarev.com/ghpvc/?username=jcondeco207&color=7aa2f7&style=flat-square&label=profile+views)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/-ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
+I design and build **AI agents and the platforms they run on**. That covers the agent harness, the data pipelines that feed it and the product people actually use.
 
-</div>
+![Core stack](https://skillicons.dev/icons?i=rust,py,ts,react,django,docker,linux)
 
 ---
 
 ## 🧭 About me
 
-- ⚙️ I build **multi-service platforms** end to end: Rust and Python on the backend, React and TypeScript on the frontend.
+- 🧠 Deep into **harness engineering**: the code around an LLM that decides whether an agent can be trusted.
+- 🤖 I build **autonomous agents** with **deepagents** and **LangGraph** on self-hosted models, so data never leaves the infrastructure.
 - 🦀 I write **high-throughput data engines in Rust** and expose them to Python with **PyO3 / maturin**.
-- 🤖 I build **LLM agents** that run fully on self-hosted models, so data never leaves the infrastructure.
+- ⚙️ I work full stack: Rust and Python on the backend, React and TypeScript on the frontend.
 - 🌱 Currently learning **Apache Kafka** and going deeper into **Axum**.
 - ⭐ My favourite language is somewhere between **Python** and **Rust**.
 - 📚 Doing a Master's degree in Computer Science at the **University of Évora**.
 
 ---
 
-## 🛠️ What I've been building
+## 🧠 Harness engineering & agents
 
-<table>
-<tr>
-<td width="50%" valign="top">
+The model is only part of an agent. The rest is the **harness**: the tools, context, budgets, checks and feedback loops around the model. That is the part I enjoy building. Most of my agent work runs on **[deepagents](https://github.com/langchain-ai/deepagents)** (LangGraph).
 
-### ⚡ Real-time data & ETL
-- Rust ETL engine that parses, normalises and **correlates** high volumes of events into an open schema
+**🏗️ Agent architecture**
+- Lead agents that plan the work, delegate to **specialist subagents** and keep their own scratch filesystem
+- **Tiered runs**, where each tier gets its own tool surface, step budget and definition of "done"
+- Custom deepagents **middleware**, such as summarisation and context editing, tuned to keep long runs inside the context window
+- A **"System One / System Two"** split: a small, fast model answers narrow questions so the slow, deliberate agent doesn't have to
+- **Skills**: procedural knowledge that is loaded only when it applies. Skills describe *how* to work a case and never *what* to conclude.
+
+**🛡️ Trust & guardrails**
+- **Deterministic guardrails** written as pure functions over the finished trace, which catch confident conclusions that the evidence doesn't support
+- An **independent verifier** that re-reads the evidence *without* seeing the first agent's conclusion
+- An **evidence score** computed from the trace, so confidence is earned rather than self-reported by the model
+- **Human-in-the-loop memory**: agents propose lessons, people approve them, and rejected memories never reach a run
+
+**📈 Evaluation & improvement**
+- **Harness fingerprinting**, which hashes prompts, tools, guardrails and model settings so every run says which harness produced it
+- Benchmarks that score agent decisions **against human decisions** on the same cases
+- A **harness-improvement loop** that proposes one change, measures it fairly and keeps it only if the gain is real
+- Full **tracing** of every step, tool call and model response, plus a **24/7 autopilot** mode for unattended operation
+
+**🔒 Private by default.** Models are self-hosted behind **llama.cpp / LiteLLM**, with **RAG** and vector search on our own infrastructure.
+
+---
+
+## 🛠️ What else I build
+
+**⚡ Real-time data & ETL**
+- A Rust ETL engine that parses, normalises and correlates high volumes of events into an open schema
 - Streaming consumers over **AMQP / RabbitMQ** using Tokio
 - Analytical storage on **ClickHouse** (MergeTree engines, batched writes, multi-tenant data)
-- Staging and orchestration across **Postgres**, **MongoDB** and **Redis**
 
-</td>
-<td width="50%" valign="top">
-
-### 🧠 Applied AI / LLMs
-- **Autonomous investigation agents** with tiers and guardrails
-- **LangGraph** orchestration, **RAG** and vector search
-- LLM-assisted **rule mapping** and data normalisation
-- Self-hosted models served through **llama.cpp / LiteLLM**, with privacy as the default
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🏗️ Platform & backend
+**🏗️ Platform & backend**
 - One **Django REST** codebase deployed as several independent services
-- **Celery** with dedicated queues and scheduled jobs, plus **Channels** websockets
-- **Axum** microservices for notification delivery
-- Full stacks run with **Docker Compose** behind **Nginx**
+- **Celery** with dedicated queues, **Channels** websockets and **Axum** microservices
+- Enterprise auth: **JWT, MFA** (TOTP, WebAuthn, YubiKey), **SSO**, **RBAC** and audit trails
 
-</td>
-<td width="50%" valign="top">
-
-### 🔐 Security & enterprise features
-- **JWT, MFA** (TOTP, WebAuthn, YubiKey), **SSO** and **RBAC**
-- Audit trails and status-transition logs for each workflow
-- Workflow-driven business modules with automated reminders
-- PDF and DOCX report generation
-
-</td>
-</tr>
-</table>
-
-### 🎨 Frontend
-**React 19** · **TypeScript** · **Vite** · **Tailwind 4** · **shadcn/ui + Radix** · TanStack Table · React Flow (visual node editors) · MapLibre · Three.js · Monaco Editor · Recharts
+**🎨 Frontend**
+- **React 19**, **TypeScript**, **Vite**, **Tailwind 4** and **shadcn/ui**, plus visual node editors, maps and 3D
 
 ---
 
 ## 💻 Languages
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,py,ts,js,go,java,scala,c,cpp,cs&perline=10" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=php,dart,kotlin,swift,html,css,markdown&perline=10" />
-</p>
+![Languages](https://skillicons.dev/icons?i=rust,py,ts,js,go,java,scala,c,cpp,cs&perline=10)
+![Languages](https://skillicons.dev/icons?i=php,dart,kotlin,swift,html,css,md&perline=10)
 
 ## 🧰 Frameworks & tools
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=django,fastapi,react,vite,tailwind,nodejs,svelte,graphql,flutter,electron&perline=10" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=dotnet,spring,laravel,kafka,rabbitmq,nginx,docker,git,githubactions,pnpm&perline=10" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=threejs,sklearn,gradle,maven,postman,bootstrap&perline=10" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" />
-  <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tokio-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyO3-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white" />
-</p>
+![Frameworks](https://skillicons.dev/icons?i=django,fastapi,react,vite,tailwind,nodejs,svelte,graphql,flutter,electron&perline=10)
+![Tools](https://skillicons.dev/icons?i=dotnet,spring,laravel,kafka,rabbitmq,nginx,docker,git,githubactions,pnpm&perline=10)
+![Tools](https://skillicons.dev/icons?i=threejs,sklearn,gradle,maven,postman,bootstrap&perline=10)
 
 ## 🗄️ Databases & messaging
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql,rabbitmq,kafka" />
-  <br/>
-  <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=ClickHouse&logoColor=black" />
-  <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-</p>
+![Databases](https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql,rabbitmq,kafka)
 
 ## 🔌 Having fun with
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=raspberrypi,arduino" />
-</p>
+![Hardware](https://skillicons.dev/icons?i=raspberrypi,arduino)
 
 ## 🖥️ Like to work on
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=apple,ubuntu,linux" />
-</p>
+![OS](https://skillicons.dev/icons?i=apple,ubuntu,linux)
 
 ---
 
 ## 📊 GitHub stats
 
-<div align="center">
-
 <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jcondeco207&count_private=true&show_icons=true&theme=tokyonight&hide_border=true" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jcondeco207&layout=compact&count_private=true&theme=tokyonight&langs_count=8&hide_border=true" />
-
-</div>
 
 <!---
 jcondeco207/jcondeco207 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
