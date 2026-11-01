@@ -2,7 +2,7 @@
 
 ### 🤖 AI & Software Engineer
 
-I design and build **AI agents and the platforms they run on**. That covers the agent harness, the data pipelines that feed it and the product people actually use.
+I take **end-to-end platforms** from design and planning through to implementation: **multi-tenant, data-intensive systems** where real-time pipelines ingest and normalise large volumes of data, and **AI agents** work with human teams to make sense of it. That covers the architecture, the data engines, the agent harness and the product people actually use.
 
 ---
 
@@ -22,24 +22,35 @@ I design and build **AI agents and the platforms they run on**. That covers the 
 The model is only the tip of the iceberg, a part of an agent. The rest is the **harness**: the tools, context, budgets, checks and feedback loops around the model. That is the part I enjoy building. Most of my agent work runs on **[deepagents](https://github.com/langchain-ai/deepagents)**.
 
 **🏗️ Agentic architecture**
+- Lead agents that plan and delegate to specialist subagents
+- Custom middleware, tool budgets and skills loaded on demand
+
 **🛡️ Trust & guardrails**
+- Deterministic checks over the agent's output, not just prompts
+- Confidence earned from evidence, not self-reported by the model
+
 **📈 Evaluation & improvement**
-**🔒 Private by default agents** 
+- Benchmarks that compare agent decisions against human ones
+- Versioned harnesses, so every change is measured before it ships
+
+**🔒 Private by default agents**
+- Self-hosted models, so data never leaves the infrastructure
+
 ---
 
 ## 🛠️ What I build
 
-**System Architeture Design**
-- Reliable, Data Intensive, Concurrent systems architeture design.
+**📐 System Architecture Design**
+- Architecture design for reliable, data-intensive and concurrent systems
 
 **⚡ Real-time data & ETL**
-- A Rust ETL engines that parse and normalise high volumes of data
+- Rust ETL engines that parse and normalise high volumes of data
 - Streaming consumers over **AMQP / RabbitMQ** using Tokio
 - Analytical storage on **ClickHouse**
 
 **🏗️ Platform & backend**
 - One **Django REST** codebase deployed as several independent services
-- Concurrent tasks queues, websockets and microservices
+- Concurrent task queues, websockets and microservices
 - Enterprise auth: **JWT, MFA** (TOTP, WebAuthn, YubiKey), **SSO**, **RBAC** and audit trails
 
 ---
